@@ -1,61 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>URL Shortener Project</title>
-</head>
-<body>
-    <h1>URL Shortener Project</h1>
-    <p>The URL Shortener is a web application built with PHP and a SQL database that allows users to convert long, cumbersome URLs into short, user-friendly links. This project simplifies link sharing and tracking while providing valuable insights into link analytics. Users can create, manage, and share shortened URLs effortlessly.</p>
-    
-    <h2>Features</h2>
-    <ul>
-        <li>Shorten long URLs with a click of a button.</li>
-        <li>Generate unique, memorable aliases for custom short URLs.</li>
-        <li>Track and analyze URL click statistics, including location and referral data.</li>
-        <li>User registration and authentication for personalized URL management.</li>
-        <li>User-friendly dashboard to view and edit shortened URLs.</li>
-        <li>Secure and efficient SQL database storage of URLs and analytics data.</li>
-        <li>Responsive web design for seamless access on various devices.</li>
-    </ul>
+# URL Shortener Project
 
-    <h2>Technologies Used</h2>
-    <ul>
-        <li><strong>PHP:</strong> Server-side scripting language for URL processing and user authentication.</li>
-        <li><strong>SQL Database:</strong> Stores original and shortened URLs, along with click analytics data.</li>
-        <li><strong>HTML/CSS:</strong> Front-end for user interface and design.</li>
-        <li><strong>JavaScript:</strong> Enhances user experience and provides interactive features.</li>
-        <li><strong>Bootstrap:</strong> Framework for responsive web design.</li>
-        <li><strong>AJAX:</strong> Asynchronous requests for real-time updates without page refresh.</li>
-    </ul>
+<p align="center">
+  <img src="ul.png" alt="URL Shortener Demo">
+</p>
 
-    <h2>Installation</h2>
-    <ol>
-        <li>Clone this repository to your local server directory.</li>
-        <li>Set up a SQL database to store URLs and analytics data. Update the database configuration in `config.php`.</li>
-        <li>Configure your web server (e.g., Apache) to point to the project directory.</li>
-        <li>Access the application via your server's URL, and begin shortening and managing URLs.</li>
-    </ol>
 
-    <h2>Usage</h2>
-    <ol>
-        <li>Register or log in to your account.</li>
-        <li>Enter a long URL to shorten.</li>
-        <li>Customize the alias for your short URL (optional).</li>
-        <li>Track click statistics on your dashboard.</li>
-        <li>Share the shortened URL with others.</li>
-    </ol>
+- A URL shortener is a service that helps take longer URLs (which can be more than a hundred characters) and transform/convert them into manageable or short links that rarely pass 20 characters. 
+- In this project [URL Shortener Website], there is only an input field on the website to enter or paste a long URL and a button to shorten the long URL. 
+- This input field has full validation that means the user can only type or enter a URL to shorten it.
 
-    <h2>Contributions</h2>
-    <p>Contributions, bug reports, and feature requests are welcome! Feel free to fork this repository, make changes, and submit pull requests.</p>
+- When the user types a valid long URL and clicks on the shorten button then there is appears a popup box with a short url/link and a save button to edit or save the short URL. 
+- Users can only change or edit the short URL at that time, later it can’t be changed. 
+- Once the user clicks on the save button then the page will reload and there is shown the user’s created short URL, long URL, clicks, and a delete button to delete the particular row or link from the URLs area section.
 
-    <h2>License</h2>
-    <p>This project is open-source and available under the <a href="LICENSE">MIT License</a>.</p>
+## Introduction
 
-    <h2>Acknowledgments</h2>
-    <p>Special thanks to the PHP and SQL communities for their valuable contributions to web development.</p>
+The URL Shortener is a web application built with PHP and a SQL database that simplifies the process of converting long, unwieldy URLs into short, shareable links. This project is designed to streamline link sharing while providing insights through click analytics. Users can create, manage, and share shortened URLs with ease.
 
-    <p>Start shortening and sharing URLs more efficiently with this PHP and SQL-powered URL Shortener!</p>
-</body>
-</html>
+
+## Features
+
+- **Shorten URLs:** Convert long URLs into short, memorable links with a single click.
+- **Custom Aliases:** Generate custom aliases for your short URLs to make them more user-friendly.
+- **Analytics:** Track click statistics, including location and referral data, for each shortened URL.
+- **User Authentication:** Allow users to register accounts and manage their shortened URLs.
+- **User Dashboard:** Provide a user-friendly interface for viewing and editing shortened URLs.
+- **Database Storage:** Securely store URLs and analytics data in a SQL database.
+- **Responsive Design:** Ensure seamless access and usability on various devices.
+
+## Technologies Used
+
+- **PHP:** Server-side scripting language for URL processing and user authentication.
+- **SQL Database:** Stores original URLs, shortened URLs, and click analytics data.
+- **HTML/CSS:** Front-end for the user interface and design.
+- **JavaScript:** Enhances user experience and provides interactive features.
+- **Bootstrap:** Framework for responsive web design.
+- **AJAX:** Enables asynchronous requests for real-time updates without page refresh.
+
+## Getting Started
+
+### Prerequisites
+
+- Web server (localhost) with PHP support
+- MySQL or compatible database server(localhost/phpadmin)
+- Git (optional)
+
+### Installation
+
+1. Clone this repository to your web server directory:
+
+   ```bash
+   git clone https://github.com/yourusername/url-shortener.git
